@@ -1,5 +1,5 @@
 <template>
-  <v-container class="home-page">
+  <v-container class="home-page" data-ap>
     <nav-bar></nav-bar>
     <main> 
       <section class="center">
@@ -19,7 +19,7 @@ import navBar from '@/components/shared/NavBar.vue'
   export default {
     name: 'HomePage',
 
-    components: { navBar},
+    components: { navBar },
   }
 </script>
 
